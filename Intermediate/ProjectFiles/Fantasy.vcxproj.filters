@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Fantasy.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{0FBE51BF-20B9-4413-9EF9-F38D0E7D54F9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Fantasy.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FantasyEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{97AE7C99-A224-4CD9-90E3-C89BBFB29CF9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Fantasy">
+			<UniqueIdentifier>{842C4BA2-4393-4CFD-95CE-EAB82B6A49E5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Fantasy\Fantasy.Build.cs">
+			<Filter>Source\Fantasy</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Fantasy\Fantasy.cpp">
+			<Filter>Source\Fantasy</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fantasy\Fantasy.h">
+			<Filter>Source\Fantasy</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Fantasy\FantasyCharacter.cpp">
+			<Filter>Source\Fantasy</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fantasy\FantasyCharacter.h">
+			<Filter>Source\Fantasy</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Fantasy\FantasyGameMode.cpp">
+			<Filter>Source\Fantasy</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fantasy\FantasyGameMode.h">
+			<Filter>Source\Fantasy</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Fantasy\FantasyPlayerController.cpp">
+			<Filter>Source\Fantasy</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fantasy\FantasyPlayerController.h">
+			<Filter>Source\Fantasy</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
